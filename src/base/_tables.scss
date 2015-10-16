@@ -1,0 +1,45 @@
+td {
+  &.reset {
+    mso-line-height-rule:exactly;
+    hyphens:auto;
+      -webkit-hyphens:auto;
+      -moz-hyphens:auto;
+    word-break:break-word;
+  }
+}
+table {
+  &.reset {
+    mso-table-rspace: 0;
+    mso-table-lspace: 0;
+  }
+
+  &.table--fixed {
+    table-layout: fixed;
+  }
+}
+
+/*
+ * SPACING TABLES
+ * These are empty tables used to create whitespace.
+ */
+ .s0 {
+ 	font-size: 0; // approx 0px
+ }
+ .s025 {
+ 	font-size: 25%; // 2.5px
+ }
+ .s05 {
+ 	font-size: 50%; // 5px
+ }
+ .s075 {
+ 	font-size: 75%; // 7.5px
+ }
+ .s125 {
+ 	font-size: 125%; // 12.5px
+ }
+ .s15 {
+ 	font-size: 150%; // 15px
+ }
+ .s25 {
+ 	font-size: 250%; // 25px
+ }

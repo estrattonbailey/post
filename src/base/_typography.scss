@@ -1,0 +1,72 @@
+/*
+ * GLOBAL Type Settings
+ */
+body {
+  font-family: $font-stack--body;
+  font-size: 10px; // font size baseline
+}
+.f-serif {
+  font-family: $font-stack--serif;
+}
+.f-sans {
+  font-family: $font-stack--sans;
+}
+.f-custom {
+  font-family: $font-stack--custom;
+}
+.f-du {
+  text-decoration: underline;
+}
+.f-dun {
+  text-decoration: none; // Outlook strips !important, so leave it off. Otherwise this class won't have any affect.
+}
+
+/*
+ * ELEMENT SETTINGS
+ */
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  display: inline-block;
+  font-family: $font-stack--headings;
+  line-height: $line-height--headings;
+  padding: 0;
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+h2, .h2 {
+  font-size: 25px;
+}
+h3, .h3 {
+  font-size: 20px;
+}
+h4, .h4 {
+  font-size: 18px;
+}
+h5, .h5 {
+  font-size: 15px;
+}
+h6, .h6 {
+  font-size: 12px;
+}
+p, .p {
+  font-family: $font-stack--paragraph;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 1.7;
+}
+font {
+	line-height: $line-height--paragraph;
+}
+br {
+	font-size: 0;
+}
+a {
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}

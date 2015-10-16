@@ -1,0 +1,23 @@
+/*
+ * TYPOGRAPHY
+ */
+$font-stack--serif: Georgia, 'Times New Roman', TimesNewRoman, Times, serif !important;
+$font-stack--sans: Helvetica, Arial, arial, sans-serif !important;
+$font-stack--custom: 'Work Sans', Helvetica, Arial, arial, sans-serif !important;
+
+$font-stack--body: $font-stack--custom;
+$font-stack--headings: $font-stack--custom;
+$font-stack--paragraph: $font-stack--serif;
+
+$line-height--paragraph: 1.5;
+$line-height--headings: 1.2;
+
+/*
+ * COLORS
+ */
+$c-white: #FFFFFF;
+$c-gray1: #f5f5f5;
+$c-gray2: #dcdcdc;
+$c-gray3: #969696;
+$c-gray4: #646464;
+$c-black: #222222;

@@ -1,0 +1,63 @@
+// WHITESPACE
+//
+// These classes can be very useful. Use them
+// for small UI element spacing, to create small
+// reusable chunks of HTML (components).
+//
+// KEY:
+// mh, ph = margin/padding horizontal (left and right)
+// mv, pv = margin/padding vertical (top and bottom)
+// etc
+
+// These are the pixel based stopping points on the
+// scale. Customize them as needed.
+$intervals: (2,4,8,12,16,20);
+@each $int in $intervals {
+  // PADDING
+  .pt-#{$int}{
+    padding-top:($int + px);
+  }
+  .pb-#{$int}{
+    padding-bottom:($int + px);
+  }
+  .pv-#{$int}{
+    padding-top:($int + px);
+    padding-bottom:($int + px);
+  }
+  .pl-#{$int}{
+    padding-left:($int + px);
+  }
+  .pr-#{$int}{
+    padding-right:($int + px);
+  }
+  .ph-#{$int}{
+    padding-left:($int + px);
+    padding-right:($int + px);
+  }
+  .px-#{$int}{
+    padding:($int + px);
+  }
+}
+
+// MARGINS
+.mh-a {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// PADDING
+.px-0 {
+  padding: 0;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.pr-0 {
+  padding-right: 0;
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.pt-0 {
+  padding-top: 0;
+}
